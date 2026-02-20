@@ -1,14 +1,11 @@
-using System.Threading.Tasks.Dataflow;
 using static System.Console;
 //Declaração de variaveis
 double largura, comprimento, valor, area, preco;
 //Entrada de dados
 Write("Digite a largura do terreno: ");
 largura = double.Parse(ReadLine());
-WriteLine();
 Write("Digite o comprimento do terreno: ");
 comprimento = double.Parse(ReadLine());
-WriteLine();
 Write("Digite o valor do m² do terreno: ");
 valor = double.Parse(ReadLine());
 //Processamento de dados
