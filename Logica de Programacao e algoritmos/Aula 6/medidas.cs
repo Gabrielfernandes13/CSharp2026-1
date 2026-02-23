@@ -1,4 +1,5 @@
 using static System.Console;
+try{
 //Declaração de variaveis
 double a, b, c, areaQuadrado, areaTriangulo, areaTrapezio;
 // Entrada de dados
@@ -16,3 +17,8 @@ areaTrapezio = ((a + b) * c)/2;
 WriteLine($"Area do Quadrado = {areaQuadrado:F4}");
 WriteLine($"Area do triangulo = {areaTriangulo:F4}"); 
 WriteLine($"Area do trapezio = {areaTrapezio:F4}");
+}
+catch(Exception)
+{
+    WriteLine("Valores invalidos inseridos, programa encerrado!");
+}
