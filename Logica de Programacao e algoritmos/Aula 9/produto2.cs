@@ -1,4 +1,5 @@
 using System.Linq.Expressions;
+using System.Security.Cryptography;
 using static System.Console;
 try
 {
@@ -38,7 +39,7 @@ switch (codigo)
 
 }
 }
-catch (Exception)
+catch (Exception ex)
 {
-    WriteLine ("Digite valores válidos");
+    WriteLine ($"Digite valores válidos, erro: {ex.Message}");
 }
