@@ -1,38 +1,29 @@
+using System.Linq.Expressions;
 using static System.Console;
-double contagem = 0, alturamaxima, alturaminima, alturapessoa;
-try
+//Declaração de variaveis
+int visitantes = 0, contagem = 0;
+double altura_max = 0, altura_min = 0, alturas = 0;
+try {
+//Entrada de dados
+Write("Digite o número de visitantes: ");
+visitantes = int.Parse(ReadLine());
+Write("Digite a altura máxima: ");
+altura_max = int.Parse(ReadLine());
+Write("Digite a altura mínima: ");
+altura_min = int.Parse(ReadLine());
+//Processamento de dados
+for(int i = 0; i<visitantes; i++)
 {
-    WriteLine("Digite o número de altura das pessoas");
-    alturamaxima = double.Parse(ReadLine());
-    WriteLine("Digite a altura maxima");
-    alturamaxima = double.Parse(ReadLine());
-    WriteLine("Digite a altura minima");
-    alturaminima = double.Parse(ReadLine());
-    for (double pessoa = 0; pessoa < 5; pessoa++)
+    Write($"Digite a altura da pessoa nº {i+1}");
+    alturas = int.Parse(ReadLine());
+    if ((alturas > altura_min) & (alturas <=altura_max))
     {
-        WriteLine($"Digite a altura da pessoa {pessoa + 1}");
-        double altura = double.Parse(ReadLine());
-        if (altura >= alturaminima && altura <= alturamaxima)
-        {
-            WriteLine($"A pessoa {pessoa + 1} está apta para o brinquedo");
-        }
-        else (altura < alturaminima);
-        {
-            WriteLine($"A pessoa {pessoa + 1} não está apta para o brinquedo, altura abaixo do mínimo");
-
-        }
-        else  (altura > alturamaxima);
-        {
-            WriteLine($"A pessoa {pessoa + 1} não está apta para o brinquedo, altura acima do máximo");
-        }
+        contagem++;
     }
+}
+WriteLine($"O número de pessoas que podem entrar no parque é de {contagem}");
 }
 catch (Exception ex)
 {
-    WriteLine($"O numero de pessoas com altura dentr do intervalo é {contagem}");
+    WriteLine($"Valor invalido, digite numerais, Erro = {ex.Message}");
 }
-    
-
-
-
- 
