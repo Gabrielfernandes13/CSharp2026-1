@@ -8,11 +8,12 @@
         public int quantidade;
 
         //Construtor
-        public Produto(string nome, double preco, int quantidade)
+        public Produto(string nome, double preco)
         {
             this.nome = nome;
             this.preco = preco;
             this.quantidade = quantidade;
+            quantidade = 0;
         }
 
         //Métodos da classe
