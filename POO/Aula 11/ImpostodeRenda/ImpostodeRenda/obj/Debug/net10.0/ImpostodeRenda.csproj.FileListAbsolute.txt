@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\bin\Debug\net10.0\ImpostodeRenda.exe
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\bin\Debug\net10.0\ImpostodeRenda.deps.json
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\bin\Debug\net10.0\ImpostodeRenda.runtimeconfig.json
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\bin\Debug\net10.0\ImpostodeRenda.dll
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\bin\Debug\net10.0\ImpostodeRenda.pdb
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\ImpostodeRenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\ImpostodeRenda.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\ImpostodeRenda.AssemblyInfo.cs
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\ImpostodeRenda.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\ImpostodeRenda.sourcelink.json
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\ImpostodeRenda.dll
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\refint\ImpostodeRenda.dll
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\ImpostodeRenda.pdb
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\ImpostodeRenda.genruntimeconfig.cache
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\ImpostodeRenda\ImpostodeRenda\obj\Debug\net10.0\ref\ImpostodeRenda.dll
