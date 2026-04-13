@@ -1,34 +1,29 @@
 ﻿namespace ImpostodeRenda.Entidades
 {
-    abstract class Pf : Contribuintes
+    class Pf : Contribuintes
     {
         public double GastosSaude { get; set; }
-        public Pf(string nome, double rendaAnual, double gastoSaude) : base(nome, rendaAnual)
+        public Pf(string nome, double rendaAnual, double gastosSaude) : base(nome, rendaAnual)
         {
-            GastosSaude = gastoSaude;
+            GastosSaude = gastosSaude;
         }
-        public override double Imposto()
+        public override double Imposto
         {
-            double imposto;
-
-            if
-            (RendaAnual < 20000.00)
+            get
             {
-                imposto = RendaAnual * 0.15;
+                double imposto;
+                if (RendaAnual < 20000.00)
+                    imposto = RendaAnual * 0.15 - GastosSaude * 0.5;
+                else
+                    imposto = RendaAnual * 0.25 - GastosSaude * 0.5;
+                if (imposto < 0)
+                    return 0;
+                else
+                    return imposto;
             }
-            else
-            {
-                imposto = RendaAnual * 0.25;
-                imposto -= GastosSaude * 0.5;
-
-                return imposto;
-            }
-
-            return imposto;
         }
     }
 }
 
-        
 
-    
+

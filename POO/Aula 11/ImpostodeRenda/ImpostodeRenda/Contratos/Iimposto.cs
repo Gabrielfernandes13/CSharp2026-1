@@ -2,5 +2,6 @@
 {
     internal interface Iimposto
     {
+        public double Imposto();
     }
 }

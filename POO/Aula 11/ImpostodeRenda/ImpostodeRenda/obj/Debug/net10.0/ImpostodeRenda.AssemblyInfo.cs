@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImpostodeRenda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f31636d49e633f14dd2b758248b485beeadd6daa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d9fe126fb8ef26a59124c0877694d71279164e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImpostodeRenda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImpostodeRenda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

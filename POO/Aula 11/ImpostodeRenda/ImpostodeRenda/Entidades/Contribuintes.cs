@@ -9,6 +9,6 @@
             Nome = nome;
             RendaAnual = rendaAnual;
         }
-        public abstract double Imposto();
-        }
+        public abstract double Imposto { get; }
+    }
 }

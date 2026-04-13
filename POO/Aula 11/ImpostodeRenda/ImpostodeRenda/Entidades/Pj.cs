@@ -7,14 +7,17 @@
         {
             NumeroFuncionarios = numeroFuncionarios;
         }
-        public override double Imposto()
+        public override double Imposto
         {
-            double imposto;
-            if (NumeroFuncionarios > 10)
-                return RendaAnual * 0.14;
-            else
+            get
             {
-                return RendaAnual * 0.16;
+                double imposto;
+                if (NumeroFuncionarios > 10)
+                    return RendaAnual * 0.14;
+                else
+                {
+                    return RendaAnual * 0.16;
+                }
             }
         }
     }
