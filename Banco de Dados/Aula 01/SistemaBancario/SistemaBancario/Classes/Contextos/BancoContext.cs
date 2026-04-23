@@ -14,7 +14,8 @@ internal class BancoContext : DbContext
         //Métodos
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=BancoDB.db");
+            optionsBuilder.UseSqlServer(
+                @"Server=localhost\SQLEXPRESS02;Database=BancoDB;Trusted_Connection=True;TrustServerCertificate=True;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
