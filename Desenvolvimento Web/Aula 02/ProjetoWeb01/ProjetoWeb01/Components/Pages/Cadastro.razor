@@ -1,4 +1,5 @@
 ﻿@page "/cadastro"
+<div class="wrapper">
 <CabecalhoPagina/>
 <div class="cadastro-container">
     <h2 class="cadastro-cabecalho">
@@ -18,20 +19,21 @@
         <input type="number" class="form-input"/>
         </div>
         <div class="form-grupo">     
-        <label class="form-label">Curso</label>
-        <select class="form-input">
-            <option value="">Selecione...</option>
-            <option>Desenvolvedor BackEnd</option>
-            <option>Programação em Java</option>
-            <option>Fundamentos de Python</option>
-        </select>
+            <label class="form-label">Curso</label>
+            <select class="form-input">
+                <option value="">Selecione...</option>
+                <option>Desenvolvedor BackEnd</option>
+                <option>Programação em Java</option>
+                <option>Fundamentos de Python</option>
+            </select>
         </div>
+        <button typq="submit" class="btn-cadastro"> Cadastrar </button>
     </form>
 
 
 </div>
 <Rodape/>
-
+</div>
 @code {
 
 }
