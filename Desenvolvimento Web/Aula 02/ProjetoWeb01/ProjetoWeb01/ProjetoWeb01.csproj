@@ -11,4 +11,10 @@
     <Content Remove="wwwroot\stylelista.razor" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Classes\Contratos\" />
+    <Folder Include="Classes\Enumeracoes\" />
+    <Folder Include="Classes\Serv\" />
+  </ItemGroup>
+
 </Project>
