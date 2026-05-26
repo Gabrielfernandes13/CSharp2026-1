@@ -1,6 +1,17 @@
-﻿namespace ProjetoWeb01.Classes.Entidades
+﻿using ProjetoWeb01.Classes.Enumeracoes;
+
+namespace ProjetoWeb01.Classes.Entidades
 {
-    public class Usuario
+    abstract public class Usuario
     {
+        //ID, NOME, EMAIL, SENHA, REGRAS
+
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
+
+        public TipoRegra Regra { get; set; }
+
     }
 }
