@@ -4,5 +4,6 @@ VALUES
 (123456, 'Inativo', 'Aguardando aprovação',1, 'Elma', 'elma@aluno.senaisp.br', 'F1c', 0),
 (123457, 'Inativo', 'Aguardando aprovação',2, 'Flavio', 'flavio@aluno.senaisp.br', 'F1c', 0),
 (123458, 'Inativo', 'Aguardando aprovação',1, 'Naruto', 'naruto@aluno.senaisp.br', 'F1c', 0),
-(123459, 'Inativo', 'Aguardando aprovação',2, 'Zorro', 'zorro@aluno.senaisp.br', 'F1c',0); 
+(123459, 'Inativo', 'Aguardando aprovação',2, 'Zorro', 'zorro@aluno.senaisp.br', 'F1c',0), 
+(123451, 'Inativo', 'Aguardando aprovação',2, 'Zorro', 'zorro@aluno.senaisp.br', 'F1c',0); 
 GO
