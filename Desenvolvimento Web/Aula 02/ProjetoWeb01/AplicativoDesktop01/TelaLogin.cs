@@ -33,7 +33,12 @@ namespace AplicativoDesktop01
             if (comparacao1 == comparacao2)
             {
                 MessageBox.Show("Usuario e senha corretos!");
-                this.Close();
+                this.Hide();
+                using (var telaAdm = new TelaAdmin())
+                {
+                    telaAdm.ShowDialog();
+                }
+                    this.Close();
             }
             else
             {
