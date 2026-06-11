@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\Contratos\" />
     <Folder Include="Consultas\" />
   </ItemGroup>
 
