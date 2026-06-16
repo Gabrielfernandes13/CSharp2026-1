@@ -1,0 +1,12 @@
+﻿using System.Globalization;
+
+namespace ProjetoAPI01.Classes.DTO
+{
+    public class LoginResponseDTO
+    {
+        public bool Sucesso { get; set; }
+        public String Mensagem { get; set; } = String.Empty;
+        public string Nome { get; set; } = string.Empty;
+        public int Regra {  get; set; } = 0;
+    }
+}
