@@ -74,7 +74,6 @@
             textBox1.Size = new Size(354, 23);
             textBox1.TabIndex = 2;
             textBox1.TextAlign = HorizontalAlignment.Center;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -85,7 +84,6 @@
             textBox2.TabIndex = 3;
             textBox2.TextAlign = HorizontalAlignment.Center;
             textBox2.UseSystemPasswordChar = true;
-            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // button1
             // 
@@ -106,13 +104,12 @@
             pictureBox1.ErrorImage = (Image)resources.GetObject("pictureBox1.ErrorImage");
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
-            pictureBox1.Location = new Point(12, -4);
+            pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(351, 82);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // TelaLogin
             // 
@@ -131,7 +128,6 @@
             Name = "TelaLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tela de Login";
-            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
