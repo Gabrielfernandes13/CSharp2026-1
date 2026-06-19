@@ -128,6 +128,7 @@
             Name = "TelaLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tela de Login";
+            Load += TelaLogin_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

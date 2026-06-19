@@ -52,8 +52,13 @@ namespace AplicativoDesktop01
             }
             catch (HttpRequestException)
             {
-                MessageBox.Show("Não foi possivel concetar na API"); 
+                MessageBox.Show("Não foi possivel concetar na API");
             }
+        }
+
+        private void TelaLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

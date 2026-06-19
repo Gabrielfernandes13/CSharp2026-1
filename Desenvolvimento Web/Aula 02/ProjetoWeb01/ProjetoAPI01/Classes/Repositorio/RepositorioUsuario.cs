@@ -39,6 +39,26 @@ namespace ProjetoAPI01.Classes.Repositorio
 
 
         }
+
+        internal async Task<bool> AtualizarUsuario(UsuarioDTO usuario, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal async Task<object?> BuscarPorId(int id, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal async Task<bool> ExcluirUsuario(int id, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal async Task<object?> ListarTodos(CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }
